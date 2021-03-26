@@ -22,4 +22,4 @@ while popA <= popB:
             popA += popA * percentA
             popB += popB * percentB
             year += 1                    
-print("A população 'A' se iguala ou ultrapassa a população 'B' em", year,"anos.")
+print(f"A população 'A' se iguala ou ultrapassa a população 'B' em {year} anos.")
